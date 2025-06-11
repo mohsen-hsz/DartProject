@@ -7,8 +7,15 @@ class Appwidget{
         fontSize: size,fontWeight:
     FontWeight.w500);
   }
-  static TextStyle Normaltextstyle(double size){
+  static TextStyle headlinetextstyle(double size) {
     return TextStyle(color: Colors.black,
-        fontSize: size,fontWeight:
+        fontSize: size, fontWeight:
+        FontWeight.bold);
+  }
+
+  static TextStyle normaltextstyle(double size) {
+    return TextStyle(color: Colors.black,
+        fontSize: size, fontWeight:
         FontWeight.w500);
+  }
 }
